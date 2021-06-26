@@ -1,5 +1,5 @@
 // tracing: off
 
-import { Home } from "@org/app/components/Home";
+import { Home } from "app/components/Home";
 
 export default Home;

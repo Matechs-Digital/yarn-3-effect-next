@@ -6,7 +6,7 @@
     "skipLibCheck": false,
     "jsx": "preserve",
     "paths": {
-      "@org/app/*": ["./packages/app/src/*"]
+      "app/*": ["./packages/app/src/*"]
     }
   },
   "exclude": ["node_modules"]

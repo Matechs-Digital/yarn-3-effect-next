@@ -15,7 +15,7 @@
     "tsBuildInfoFile": ".tsbuildinfo/build-pages",
     "baseUrl": ".",
     "paths": {
-      "@org/app/*": ["./lib/*"]
+      "app/*": ["./lib/*"]
     }
   }
 }

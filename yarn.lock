@@ -1982,12 +1982,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@org/app@workspace:packages/app":
-  version: 0.0.0-use.local
-  resolution: "@org/app@workspace:packages/app"
-  languageName: unknown
-  linkType: soft
-
 "@sinonjs/commons@npm:^1.7.0":
   version: 1.8.3
   resolution: "@sinonjs/commons@npm:1.8.3"
@@ -2639,6 +2633,12 @@ __metadata:
   checksum: 985163db2292fac9e5a1e072bf99f1b5baccf196e4de25a0b0b81865ebddeb3b3eb4480734ef0a2ac8c002845396b91aa89121f5b84f93981a4658164a9ec6e9
   languageName: node
   linkType: hard
+
+"app@workspace:packages/app":
+  version: 0.0.0-use.local
+  resolution: "app@workspace:packages/app"
+  languageName: unknown
+  linkType: soft
 
 "aproba@npm:^1.0.3":
   version: 1.2.0

@@ -1,5 +1,5 @@
 {
-  "name": "@org/app",
+  "name": "app",
   "scripts": {
     "clean": "yarn g:rimraf lib .next pages .tsbuildinfo",
     "dev": "yarn build-src && yarn build-pages && yarn g:concurrently \"yarn build-src --watch\" \"yarn build-pages --watch\" \"yarn g:next dev\"",
