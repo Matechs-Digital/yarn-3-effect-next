@@ -11176,7 +11176,7 @@ fsevents@^1.0.0:
     ts-jest: ^27.0.3
     ts-node: ^10.0.0
     ttypescript: ^1.5.12
-    typescript: ^4.3.4
+    typescript: 4.4.0-dev.20210625
     ultra-runner: ^3.10.5
   languageName: unknown
   linkType: soft
@@ -12708,23 +12708,23 @@ fsevents@^1.0.0:
   languageName: node
   linkType: hard
 
-typescript@^4.3.4:
-  version: 4.3.4
-  resolution: "typescript@npm:4.3.4"
+typescript@4.4.0-dev.20210625:
+  version: 4.4.0-dev.20210625
+  resolution: "typescript@npm:4.4.0-dev.20210625"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 75e1f2769c7ff38c718523d05eaf1c2611dbf92c0ab0f85f603ead9bb23416af2009a5dac46e76ef6a207a8508fa53f51b43a41f2a91b1241b53cd744c16128c
+  checksum: 5dbd1319776e3c1e11741c08ffd052d2709c93cf161a3eaf515d285eabd667cdf951bab7d6dc165eb86a7dd3cd08c299f6c3ddaebc06251f9f49d73a1959c5d9
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.3.4#~builtin<compat/typescript>":
-  version: 4.3.4
-  resolution: "typescript@patch:typescript@npm%3A4.3.4#~builtin<compat/typescript>::version=4.3.4&hash=d8b4e7"
+"typescript@patch:typescript@4.4.0-dev.20210625#~builtin<compat/typescript>":
+  version: 4.4.0-dev.20210625
+  resolution: "typescript@patch:typescript@npm%3A4.4.0-dev.20210625#~builtin<compat/typescript>::version=4.4.0-dev.20210625&hash=d8b4e7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: a6b1a3674b60971691b89fa8187a4905e132cb8061724b4bd485e5d5441caa61166fe3bcf2b47aa679a6d860cae823022ca51db713cc3446296274c005dd02e5
+  checksum: c202f6816244fe84eb94e27895dcb93d383de9d9b21d6983c989949891d6420c0739cfd645856c0b1fcb1e5d066a0a383d49a6d1891470f528db94c675f52d1c
   languageName: node
   linkType: hard
 
