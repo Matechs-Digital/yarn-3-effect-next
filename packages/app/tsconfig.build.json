@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["./src-pages/**/*.ts", "./src-pages/**/*.tsx"],
+  "compilerOptions": {
+    "outDir": "pages",
+    "plugins": [{ "transform": "@effect-ts/tracing-plugin" }],
+    "declaration": false,
+    "sourceMap": false,
+    "declarationMap": false,
+    "skipLibCheck": true,
+    "target": "ES2020",
+    "module": "ES2020"
+  }
+}

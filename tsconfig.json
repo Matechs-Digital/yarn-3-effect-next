@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "types": ["@effect-ts/fluent"],
+    "skipLibCheck": false,
+    "jsx": "preserve"
+  },
+  "exclude": ["node_modules"]
+}
