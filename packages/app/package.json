@@ -3,6 +3,7 @@
   "scripts": {
     "clean": "yarn g:rimraf build .next pages .tsbuildinfo",
     "dev": "yarn g:ttsc --project tsconfig.build.json && yarn g:concurrently \"yarn g:ttsc --project tsconfig.build.json --watch\" \"yarn g:next dev\"",
-    "build": "yarn clean && yarn g:ttsc --project tsconfig.build.json && yarn g:next build"
+    "build-next": "yarn g:next build",
+    "build": "yarn clean && yarn g:ttsc --project tsconfig.build.json && yarn build-next"
   }
 }
