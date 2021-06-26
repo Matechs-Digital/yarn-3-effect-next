@@ -555,7 +555,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@effect-ts/build-utils@npm:^0.20.6":
+"@effect-ts/build-utils@npm:^0.20.7":
   version: 0.20.7
   resolution: "@effect-ts/build-utils@npm:0.20.7"
   peerDependencies:
@@ -577,12 +577,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@effect-ts/fluent@npm:^0.0.13":
-  version: 0.0.13
-  resolution: "@effect-ts/fluent@npm:0.0.13"
+"@effect-ts/fluent@npm:^0.0.17":
+  version: 0.0.17
+  resolution: "@effect-ts/fluent@npm:0.0.17"
   peerDependencies:
     "@effect-ts/core": ^0.40.7
-  checksum: 1f0d2c74635777b3560bfc68ad9c254a55a191f8eefd284e0b41f8a801d0e3e04bae868bd0cd6ff09165ef2fa4c50c13c296232fe78ae7e4d20598b34a3b9ce5
+  checksum: acc5ad26e9a91d6564986154a4ebb407c4ee9620a9695dfd1d7bba304ca66dd0486b6a1a3c12772f9686ac492a71f88563c5e6a31b2d02b6246bfa5c4ff144fe
   languageName: node
   linkType: hard
 
@@ -602,10 +602,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@effect-ts/tracing-plugin@npm:^0.11.2":
-  version: 0.11.2
-  resolution: "@effect-ts/tracing-plugin@npm:0.11.2"
-  checksum: cfd8c8f72acb939ba541367ea398d7ae73243e36658b855147fee525feb3918e873c44a339722043a10cb305a0afa6ff28e0f6001c6e9a9948ee6d5080eb9dd1
+"@effect-ts/tracing-plugin@npm:^0.11.5":
+  version: 0.11.5
+  resolution: "@effect-ts/tracing-plugin@npm:0.11.5"
+  checksum: 20b4f3c5cbb42b59739f5622f726ed56867cb62c48d86a086f7b614e0e31603eb0a897b03a96e8a3b790e90705b5efdc57170baa1fe3a74a3d87a425825f7519
   languageName: node
   linkType: hard
 
@@ -11134,11 +11134,11 @@ fsevents@^1.0.0:
   dependencies:
     "@babel/cli": ^7.14.5
     "@babel/core": ^7.14.6
-    "@effect-ts/build-utils": ^0.20.6
+    "@effect-ts/build-utils": ^0.20.7
     "@effect-ts/core": ^0.40.7
-    "@effect-ts/fluent": ^0.0.13
+    "@effect-ts/fluent": ^0.0.17
     "@effect-ts/node": ^0.26.0
-    "@effect-ts/tracing-plugin": ^0.11.2
+    "@effect-ts/tracing-plugin": ^0.11.5
     "@types/cpx": ^1.5.1
     "@types/glob": ^7.1.3
     "@types/jest": ^26.0.23
