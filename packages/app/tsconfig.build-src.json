@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "compilerOptions": {
+    "outDir": "lib",
+    "plugins": [{ "transform": "@effect-ts/tracing-plugin" }],
+    "declaration": true,
+    "sourceMap": false,
+    "declarationMap": false,
+    "skipLibCheck": true,
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "incremental": true,
+    "tsBuildInfoFile": ".tsbuildinfo/build"
+  }
+}

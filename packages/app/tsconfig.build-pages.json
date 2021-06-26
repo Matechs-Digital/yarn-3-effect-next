@@ -12,6 +12,10 @@
     "module": "ES2020",
     "moduleResolution": "node",
     "incremental": true,
-    "tsBuildInfoFile": ".tsbuildinfo/build"
+    "tsBuildInfoFile": ".tsbuildinfo/build",
+    "baseUrl": ".",
+    "paths": {
+      "@org/app/*": ["./lib/*"]
+    }
   }
 }

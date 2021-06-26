@@ -4,7 +4,10 @@
     "baseUrl": ".",
     "types": ["@effect-ts/fluent"],
     "skipLibCheck": false,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "paths": {
+      "@org/app/*": ["./packages/app/src/*"]
+    }
   },
   "exclude": ["node_modules"]
 }
