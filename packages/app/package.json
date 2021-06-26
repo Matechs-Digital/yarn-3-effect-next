@@ -2,7 +2,7 @@
   "name": "app",
   "scripts": {
     "clean": "yarn g:rimraf lib .next pages .tsbuildinfo",
-    "dev": "yarn build-src && yarn build-pages && yarn g:concurrently \"yarn build-src --watch\" \"yarn build-pages --watch\" \"yarn g:next dev\"",
+    "dev": "yarn build-src && yarn build-pages && yarn g:stmux -w error -e ERROR -m beep,system -- [ [ \"yarn build-src --watch\" .. \"yarn build-pages --watch\" ] : -s 2/4 -f \"yarn g:next dev\" ]",
     "build-src": "yarn g:ttsc --project tsconfig.build-src.json",
     "build-pages": "yarn g:ttsc --project tsconfig.build-pages.json",
     "build-next": "yarn g:next build",
