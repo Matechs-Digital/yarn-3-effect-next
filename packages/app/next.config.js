@@ -5,4 +5,11 @@ module.exports = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  target: "serverless",
+  webpack(cfg) {
+    if (cfg.name === "server" && cfg.mode === "production") {
+      cfg.optimization.minimize = true;
+    }
+    return cfg;
+  },
 };
