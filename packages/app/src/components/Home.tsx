@@ -7,7 +7,7 @@ export function Home() {
   const [counter, updateCounter] = React.useState(0);
 
   const positive = counter > 0 ? O.some(counter) : O.none;
-  const message = positive.chain((n) => O.some(`It works: ${n}`));
+  const message = positive.chain((n) => O.some(`It works: (${n})`));
 
   React.useEffect(() => {
     T.sleep(1_000)
