@@ -39,14 +39,13 @@
       "problemMatcher": ["$tsc-watch"]
     },
     {
-      "label": "Watch App Next",
+      "label": "Watch",
       "type": "shell",
       "command": "sh -c \"cd packages/app; yarn dev-next\"",
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      "isBackground": true,
       "dependsOrder": "sequence",
       "dependsOn": [
         "Clean App",
@@ -56,6 +55,23 @@
         "Watch App Pages"
       ],
       "problemMatcher": []
+    },
+    {
+      "label": "Build",
+      "type": "shell",
+      "command": "sh -c \"cd packages/app; yarn build-next\"",
+      "group": "build",
+      "dependsOrder": "sequence",
+      "dependsOn": ["Clean App", "Build App SRC", "Build App Pages"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Start",
+      "type": "shell",
+      "command": "sh -c \"cd packages/app; yarn start\"",
+      "group": "build",
+      "problemMatcher": [],
+      "isBackground": true
     }
   ]
 }
