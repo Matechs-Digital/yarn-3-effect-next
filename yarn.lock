@@ -555,34 +555,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@effect-ts/build-utils@npm:^0.20.13":
-  version: 0.20.13
-  resolution: "@effect-ts/build-utils@npm:0.20.13"
+"@effect-ts/build-utils@npm:^0.20.18":
+  version: 0.20.18
+  resolution: "@effect-ts/build-utils@npm:0.20.18"
   peerDependencies:
     "@effect-ts/core": ">= 0.28.9"
     chalk: ">= 4.1.0"
     cpx: ">= 1.5.0"
   bin:
     build-utils: build-utils
-  checksum: 168fbf4f015fc93e2e689caf2ed51f3d58417eb95905e9468bd9f7fd72687727d9469b4ef3a69659ee441aada4050065a47fdfd78d60b72772e324dfa80287a3
+  checksum: 0b3de5defbb15799b9f5ea2cb996ed984330a2cffee69d2cee6384499a07ca7e0a5bd9797d567360021435220e256fd12a29e84308e4d08f24609eb27f8a3263
   languageName: node
   linkType: hard
 
-"@effect-ts/core@npm:^0.40.11":
-  version: 0.40.11
-  resolution: "@effect-ts/core@npm:0.40.11"
+"@effect-ts/core@npm:^0.40.16":
+  version: 0.40.16
+  resolution: "@effect-ts/core@npm:0.40.16"
   dependencies:
-    "@effect-ts/system": ^0.37.10
-  checksum: 250702048c5bb7d85680e6c7ebffb41995c202ad3612600ea28e2af6eb33e78e0a2044ce01d749f2d3979becfba14b9ff76c175ad0f9d03ac59a576df04a35b6
+    "@effect-ts/system": ^0.37.13
+  checksum: 94441102cf17e1c8648f2c8902f80ab79f56a65040995c8e0b02a3993a2015d98293e6a8aaac483df635ed6e4ef7a7a7b9d2c59af975ea3c7a52105bd18ce6e0
   languageName: node
   linkType: hard
 
-"@effect-ts/fluent@npm:^0.0.18":
-  version: 0.0.18
-  resolution: "@effect-ts/fluent@npm:0.0.18"
+"@effect-ts/fluent@npm:^0.0.23":
+  version: 0.0.23
+  resolution: "@effect-ts/fluent@npm:0.0.23"
   peerDependencies:
-    "@effect-ts/core": ^0.40.11
-  checksum: 15ffee0413591a7fc636a64d233e5f7740f7cc3afa5593e13cf42d21899f231126a92e8bbf385dc2c1e8219781ec604ec35d2beb945180d858f08ac6c373bcf1
+    "@effect-ts/core": ^0.40.16
+  checksum: c966fdc6e477b728267fe6342fd2f473412eff33ece0fd5125a54561a44b7d3ea1c3fac2bb8ac5e5d582c6b534bd10c6376bac077dad604b5b30b82cf629d231
   languageName: node
   linkType: hard
 
@@ -595,17 +595,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@effect-ts/system@npm:^0.37.10":
-  version: 0.37.10
-  resolution: "@effect-ts/system@npm:0.37.10"
-  checksum: a85c6ee83a00b596112238b2507d58882d26170876fc4143032223c72f11dd59f0ad17e99f71de347ace72789c0373abd2362d3bf570303653f4d42a709c8419
+"@effect-ts/system@npm:^0.37.13":
+  version: 0.37.13
+  resolution: "@effect-ts/system@npm:0.37.13"
+  checksum: 65f3040b618ca502df30eb2b47917ed8841389147b82ef12abb877cca853fb103d6621187005411c66881740db2c078a264d13972e861175131ab7e4d9f55ff9
   languageName: node
   linkType: hard
 
-"@effect-ts/tracing-plugin@npm:^0.11.6":
-  version: 0.11.6
-  resolution: "@effect-ts/tracing-plugin@npm:0.11.6"
-  checksum: b1d5e000193da1a5650ff320b301a18fbb4be08697937c903b88c428e4b480a431add6f57617b2c321be3ae569de412b9c223351a94671e223f534a45f2ca43c
+"@effect-ts/tracing-plugin@npm:^0.11.8":
+  version: 0.11.8
+  resolution: "@effect-ts/tracing-plugin@npm:0.11.8"
+  checksum: d8525594aee3a6e8274c5c1a5f8a64a54f462a9f535929cb162d691559eb120d73ac70a8d535916902688680e5ac99d8e01515e9373934f1fee6fcd2cc327f2c
   languageName: node
   linkType: hard
 
@@ -11550,11 +11550,11 @@ fsevents@^1.0.0:
   dependencies:
     "@babel/cli": ^7.14.5
     "@babel/core": ^7.14.6
-    "@effect-ts/build-utils": ^0.20.13
-    "@effect-ts/core": ^0.40.11
-    "@effect-ts/fluent": ^0.0.18
+    "@effect-ts/build-utils": ^0.20.18
+    "@effect-ts/core": ^0.40.16
+    "@effect-ts/fluent": ^0.0.23
     "@effect-ts/node": ^0.26.1
-    "@effect-ts/tracing-plugin": ^0.11.6
+    "@effect-ts/tracing-plugin": ^0.11.8
     "@types/cpx": ^1.5.1
     "@types/glob": ^7.1.3
     "@types/jest": ^26.0.23

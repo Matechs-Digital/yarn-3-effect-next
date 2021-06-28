@@ -9,20 +9,6 @@
       "problemMatcher": ["$tsc"]
     },
     {
-      "label": "Build App SRC",
-      "type": "shell",
-      "command": "sh -c \"cd packages/app; yarn build-src\"",
-      "group": "build",
-      "problemMatcher": ["$tsc"]
-    },
-    {
-      "label": "Build App Pages",
-      "type": "shell",
-      "command": "sh -c \"cd packages/app; yarn build-pages\"",
-      "group": "build",
-      "problemMatcher": ["$tsc"]
-    },
-    {
       "label": "Watch App SRC",
       "type": "shell",
       "command": "sh -c \"cd packages/app; yarn build-src --watch\"",
@@ -47,13 +33,7 @@
         "isDefault": true
       },
       "dependsOrder": "sequence",
-      "dependsOn": [
-        "Clean App",
-        "Build App SRC",
-        "Build App Pages",
-        "Watch App SRC",
-        "Watch App Pages"
-      ],
+      "dependsOn": ["Clean App", "Watch App SRC", "Watch App Pages"],
       "problemMatcher": []
     },
     {
